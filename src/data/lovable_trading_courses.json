@@ -1,0 +1,155 @@
+{
+  "version": "1.0",
+  "page": "trading-courses",
+  "settings": {
+    "access_rules": {
+      "all_content_public": true
+    },
+    "display": {
+      "unique_cover_image_per_course": true,
+      "show_trainer_name": false,
+      "show_topics_on_cards": false
+    },
+    "filters": {
+      "category": "All Categories",
+      "course": "All Courses",
+      "level": "All Levels"
+    }
+  },
+  "courses": [
+    {
+      "id": "course_1",
+      "title": "Getting started in the financial markets",
+      "level": "Beginner",
+      "learning_time": "90 minutes",
+      "lessons": [
+        {
+          "title": "Introduction to financial trading",
+          "time": "12 minutes",
+          "content": "![Course cover — Introduction to financial trading](/assets/courses/course1/intro-cover.png)\n\nFinancial trading is the global exchange of financial instruments—such as currencies, commodities, shares, or stock indices—between buyers and sellers. The aim is often to profit from price changes, but trading can also be used to protect investments from market risks. With the rise of online platforms, nearly anyone can participate in trading, accessing markets that once were open only to institutions.\n\nBefore jumping into how to trade, it’s important to understand:\n- What trading actually is (and what it isn’t)\n- The main types of markets you can trade in\n- The different styles of trading you might choose\n\nGetting these fundamentals right will give you a strong foundation for everything else in the course.\n\n### Trading vs. Investing\n\nAlthough people often mix up the terms, trading and investing are different approaches:\n\n|  | **Trading** | **Investing** |\n|---|---|---|\n| **Horizon** | Short to medium term (seconds to months) | Long term (years to decades) |\n| **Focus** | Price movements | Business/asset growth |\n| **Leverage** | Often uses leverage | Rarely uses leverage |\n| **Activity** | More frequent buying and selling | Fewer transactions |\n| **Risk/Return** | Higher potential returns and higher risk | Generally lower risk with steadier returns |\n\n**Example**  \n- **Trader:** Buys Apple stock in the morning, sells it the same day for a 2% gain.  \n- **Investor:** Buys Apple stock and holds it for 10 years, benefiting from growth and dividends.\n\n**Key takeaway:** Trading is about capturing short-term opportunities. Investing is about building wealth over time.\n\n### The Main Markets in Trading\n\nFinancial trading is the act of buying and selling assets with the aim of making a profit or meeting a specific need. Major markets include:\n- **Shares:** Units of ownership in a company (e.g., Microsoft, Netflix, HSBC).\n- **Stock indices:** Values tracking groups of companies (e.g., S&P 500, FTSE 100, Nikkei 225).\n- **Forex:** Global market for currencies (euro, USD, JPY, etc.).\n- **Commodities:** Raw materials like gold, oil, wheat, coffee.\n- **Cryptocurrencies:** Digital assets like Bitcoin, Ethereum, Ripple.\n\nPeople and organizations participate for speculation or necessity (e.g., a business buying JPY to pay a supplier).\n\n### How trades actually work (with Sky Links Capital as example)\n\n1. **Placing your order:** Choose an asset, decide to **buy (long)** or **sell (short)**, and enter order details.  \n2. **Order routing:** As an **STP broker**, Sky Links Capital routes orders to liquidity providers for best available price.  \n3. **Trade execution:** Market orders fill at current price; limit orders at a specified price.  \n4. **Market movement & exit:** Monitor and close to realize profit or loss.\n\n**Example:** You buy gold at $1,950/oz. Later, price rises to $1,970. Closing the position realizes a $20 gain per ounce (minus fees).\n\n### Key Market Concepts\n\n- **Bulls vs. Bears:** Bulls expect rising prices; bears expect declines.  \n- **Volatility:** Magnitude/speed of price moves—higher potential reward and risk.  \n- **Liquidity:** Ease of entering/exiting trades without moving price; higher liquidity = tighter spreads.\n"
+        },
+        {
+          "title": "What is forex?",
+          "time": "10 minutes",
+          "content": "![Forex overview](/assets/courses/course1/forex-overview.png)\n\nThe foreign exchange market—**forex/FX**—is where currencies are bought and sold. It’s the **largest** and **most liquid** market globally, trading **24 hours/day, 5 days/week** across London, Tokyo, New York, and more.\n\n**Why forex exists**\n- **International trade:** Importers/exporters need foreign currency.\n- **Tourism:** Travelers convert currencies.\n- **Investment flows:** Capital moving across borders.\n- **Speculation:** Traders seek to profit from exchange-rate moves.\n\n**How the forex market works (OTC)**\n- **Decentralized** network; not a single exchange.\n- **Participants:** Central banks, commercial banks, corporations, brokers, retail traders.\n- **24/5 cycle:** Sessions roll from Asia → Europe → North America with continuously updated prices.\n"
+        },
+        {
+          "title": "Trading forex",
+          "time": "12 minutes",
+          "content": "![Trading forex — pairs and pips](/assets/courses/course1/forex-trading.png)\n\n### Currency Pair Types\n- **Majors:** Include USD (e.g., EUR/USD, GBP/USD, USD/JPY).  \n- **Minors:** No USD (e.g., EUR/GBP, AUD/NZD).  \n- **Exotics:** Major + emerging currency (e.g., USD/TRY, EUR/SEK).\n\n### What is a “pip”?\n- Most pairs: **1 pip = 0.0001** (4th decimal).  \n- JPY pairs: **1 pip = 0.01** (2nd decimal).  \n- **Example:** EUR/USD 1.1000 → 1.1001 = **+1 pip**.\n\n### What is a lot?\n- **Standard:** 100,000 units (≈ **$10/pip** on EUR/USD).  \n- **Mini:** 10,000 (≈ **$1/pip**).  \n- **Micro:** 1,000 (≈ **$0.10/pip**).  \n- **Nano:** 100 (broker-dependent).\n\n**Pips × Lots example (EUR/USD, +50 pips):**\n- Standard: 50 × $10 = **$500**  \n- Mini: 50 × $1 = **$50**  \n- Micro: 50 × $0.10 = **$5**\n\n### What moves FX markets?\n- **Economic indicators** (GDP, inflation, jobs)\n- **Interest rates** (yield differentials attract capital)\n- **Political stability** (uncertainty weakens currencies)\n- **Market sentiment** (risk-on/off dynamics)\n"
+        },
+        {
+          "title": "What are commodities?",
+          "time": "8 minutes",
+          "content": "![Commodities — hard vs soft](/assets/courses/course1/commodities.png)\n\n**Commodities** are physical goods/raw materials used to produce other goods/services.\n\n### Main Categories\n- **Hard commodities:** Mined/extracted (oil, gas, gold, silver, copper, aluminum).  \n  - Traits: Non‑perishable; used in manufacturing/energy.  \n  - Example: Gold as **safe haven**; oil impacted by **geopolitics**.\n- **Soft commodities:** Agricultural/livestock (wheat, corn, coffee, sugar, cocoa, soy, cattle).  \n  - Traits: **Perishable**; affected by weather/seasons.  \n  - Example: Coffee spikes after poor harvests in Brazil.\n\n### Who trades commodities?\n- **Producers** (miners, oil firms, farmers)  \n- **Speculators** (seek price moves)  \n- **Hedgers** (manage input/output price risk)  \n- **Brokers** (facilitate access, analysis, execution)\n"
+        },
+        {
+          "title": "Trading commodities",
+          "time": "8 minutes",
+          "content": "![Trading commodities — instruments](/assets/courses/course1/commodities-trading.png)\n\n### Ways to trade\n- **Futures contracts:** Agree today to transact at a future price/date.  \n- **Spot trading:** Immediate delivery at current market price.  \n- **CFDs:** Trade price movements long/short without owning the asset.  \n- **ETFs:** Gain exposure via exchange-traded funds.\n\n### Price Drivers\n- **Supply/demand** dynamics\n- **Weather** (agriculture)\n- **Geopolitics** (energy supply)\n- **Global growth** (industrial demand)\n- **USD strength/weakness** (many commodities priced in USD)\n\n### Where are commodities traded?\n**Exchanges:** CME, LME, ICE, NYMEX, TOCOM  \n**OTC:** Customized bilateral trades via brokers\n"
+        },
+        {
+          "title": "What are shares?",
+          "time": "8 minutes",
+          "content": "![Shares — ownership units](/assets/courses/course1/shares.png)\n\n**Shares** (stocks/equities) represent **ownership** in a company and may grant **dividends** and **voting rights**.\n\n**Why companies issue shares**\n- Raise capital for growth (R&D, expansion, data centers) without taking on debt.  \n- **IPO** lists shares publicly; thereafter, shares trade on exchanges.\n\n**What drives share prices?**\n- **Company performance** (earnings, revenue, balance sheet)  \n- **Market sentiment** (optimism/pessimism)  \n- **Macro conditions** (rates, inflation, GDP)  \n- **Industry trends** (e.g., EV demand, AI adoption)\n\n**In short:** More demand → price rises; less demand → price falls.\n"
+        },
+        {
+          "title": "Trading shares",
+          "time": "12 minutes",
+          "content": "![Trading shares — exchanges](/assets/courses/course1/shares-trading.png)\n\nTrading shares involves buying/selling company stock for profit.\n\n### Where are stocks traded?\n**Major exchanges:** NYSE, NASDAQ, LSE, TSE, HKEX\n\n### Primary vs Secondary Markets\n- **Primary:** New shares issued via **IPO**.  \n- **Secondary:** Investors trade existing shares (most activity).\n\n### Who is a stockbroker?\n- **Full‑service:** Strategy + execution + research (**high** commission)  \n- **Advisory:** Ideas/recommendations; client decides (**medium**)  \n- **Execution‑only:** Places orders; no advice (**low**)\n\n### Trading Times (UK time; may vary with DST)\n| **Exchange** | **Open** | **Close** |\n|---|---|---|\n| NYSE | 14:30 | 21:00 |\n| NASDAQ | 14:30 | 21:00 |\n| LSE | 08:00 | 16:30 |\n| TSE | 00:00 | 06:00 |\n"
+        },
+        {
+          "title": "What are stock indices?",
+          "time": "10 minutes",
+          "content": "![Stock indices — benchmarks](/assets/courses/course1/indices.png)\n\nAn **index** measures performance of a selected group of stocks and serves as a **benchmark**.\n\n**Why indices exist**\n- Benchmark portfolio performance  \n- Gauge **market sentiment**  \n- Underlie **ETFs** and index funds  \n- Track **sectors/themes**\n\n**Types of indices**\n- **Global:** MSCI World  \n- **Country:** FTSE 100, Nikkei 225, S&P 500  \n- **Sector:** NASDAQ Biotechnology  \n- **Thematic:** e.g., Renewables, AI\n\n**Notable indices & components**\n| **Index** | **Region/Focus** | **No. of Cos.** | **Notable Components** |\n|---|---|---:|---|\n| S&P 500 | USA | 500 | Apple, Microsoft, Amazon |\n| Dow Jones | USA | 30 | Coca‑Cola, Boeing, IBM |\n| NASDAQ 100 | USA (Tech‑heavy) | 100 | Tesla, Nvidia, Meta |\n| FTSE 100 | UK | 100 | BP, HSBC, Unilever |\n| DAX 40 | Germany | 40 | BMW, Siemens, Adidas |\n| Nikkei 225 | Japan | 225 | Sony, Toyota, Panasonic |\n\n**How indices are calculated**\n- **Market‑cap weighted:** Larger firms move index more (e.g., S&P 500).  \n- **Price‑weighted:** Higher‑priced shares have more impact (e.g., Dow).  \n- **Equal‑weighted:** Each company carries equal weight.\n"
+        },
+        {
+          "title": "Trading stock indices",
+          "time": "10 minutes",
+          "content": "![Trading indices — instruments](/assets/courses/course1/indices-trading.png)\n\nYou can’t buy an index directly; you trade instruments that track it.\n\n**Popular approaches**\n- **Index CFDs:** Speculate on moves without owning constituents.  \n- **Index Futures:** Agree today for future settlement price/date.  \n- **Index ETFs:** Exchange‑traded funds replicating an index.\n\n**Why trade indices?**\n- **Diversification** in one trade  \n- Express **market sentiment** views  \n- **Volatility** opportunities  \n- **Hedging** portfolios  \n- **Leverage** (CFDs) — amplifies gains **and** losses\n\n**Key movers**\n- **Macro data:** GDP, jobs, inflation  \n- **Earnings:** Heavyweights can sway the index  \n- **Rates:** Central bank policy shifts valuations  \n- **Global events:** Elections, wars, pandemics  \n- **Sector trends:** For sector/thematic indices\n"
+        }
+      ]
+    },
+    {
+      "id": "course_2",
+      "title": "How to trade as a beginner",
+      "level": "Beginner",
+      "learning_time": "90 minutes",
+      "lessons": [
+        {
+          "title": "Who trades in the market?",
+          "time": "10 minutes",
+          "content": "![Market participants overview](/assets/courses/course2/participants.png)\n\nImagine a bustling marketplace:\n- **Retail traders:** Individuals trading their own money—nimble but small size.  \n- **Institutional traders:** Banks, funds, hedges—large orders can move price.  \n- **Proprietary traders:** Trade firm capital with strict risk limits.  \n- **High‑frequency traders (HFTs):** Algorithms firing orders in milliseconds; add liquidity.  \n- **Brokers/dealers:** Gatekeepers providing market access and pricing.\n\nTogether, they create liquidity and continuous price discovery.\n"
+        },
+        {
+          "title": "Market participants and stakeholders",
+          "time": "13 minutes",
+          "content": "![Stakeholders — exchanges, MM, clearing, regs](/assets/courses/course2/stakeholders.png)\n\n**Exchanges:** Central hubs matching orders, publishing prices, and enforcing standards.  \n**Market makers:** Quote **bid/ask** continuously; earn the **spread** and keep markets fluid.  \n**Clearing houses:** Eliminate counterparty risk; manage margin; guarantee settlement.  \n**Regulators:** Referees ensuring fair, transparent, and non‑manipulated markets.  \n**Liquidity providers:** Banks/trading firms streaming prices (critical in decentralized FX).\n"
+        },
+        {
+          "title": "How buying & selling works",
+          "time": "11 minutes",
+          "content": "![Order book — bid/ask/spread](/assets/courses/course2/bid-ask.png)\n\n**Bid/Ask/Spread:**  \n- **Bid:** Highest price buyers will pay.  \n- **Ask:** Lowest price sellers will accept.  \n- **Spread:** Ask − Bid; built‑in trading cost.\n\n**Order types**\n- **Market:** Immediate execution at best price (pays spread; possible slippage).  \n- **Limit:** Control price; no fill guarantee.  \n- **Stop:** Trigger at level (often for stop‑loss or breakout entries).  \n- **Stop‑Limit:** Trigger + limit control; risk of no fill on gaps.\n\n**Example (EUR/USD 1.1000/1.1002):**  \n- Market **buy** fills at **1.1002** → starts **−2 pips** due to spread.  \n- Limit **buy** at **1.1000** may avoid spread if price dips to fill.\n"
+        },
+        {
+          "title": "Understanding spreads",
+          "time": "11 minutes",
+          "content": "![Spreads and liquidity](/assets/courses/course2/spreads.png)\n\n**What is the spread?** Difference between **bid** and **ask**.  \n- Tight spreads → high **liquidity**, lower cost.  \n- Wide spreads → lower liquidity, higher cost (e.g., news events).\n\n**Example (mini lot 10,000 EUR/USD):**  \n- Quote **1.1000/1.1002** → **2 pips** = **$2** per mini lot.  \n- Ten such trades/day → **$20** spread cost even with “commission‑free” ads.\n"
+        },
+        {
+          "title": "Going long vs short",
+          "time": "8 minutes",
+          "content": "![Long vs short](/assets/courses/course2/long-short.png)\n\n- **Long:** Buy first, profit if price **rises**; max loss limited to 100% (price can't go below zero).  \n- **Short:** Sell first (borrowed), profit if price **falls**; **unlimited** risk if price rises.\n\n**Example:**  \n- Long 100 shares at $20 → sell $25 = **$500** profit.  \n- Short 100 at $20 → cover $15 = **$500** profit.  \n- If price rises to $30 while short → **$1,000** loss.\n"
+        },
+        {
+          "title": "Why traders short the market",
+          "time": "8 minutes",
+          "content": "![Shorting — reasons and risks](/assets/courses/course2/shorting.png)\n\n**Reasons to short**\n- **Speculation:** Profit from anticipated declines.  \n- **Hedging:** Offset long exposure (e.g., short sector index vs long stocks).  \n- **Arbitrage/pairs:** Exploit relative mispricings.\n\n**Risks:** Unlimited losses; **short squeezes**; borrow costs/restrictions.\n"
+        },
+        {
+          "title": "Introduction to Leverage",
+          "time": "15 minutes",
+          "content": "![Leverage & margin](/assets/courses/course2/leverage.png)\n\n**Leverage** lets you control larger exposure with less capital.  \n- **Exposure = Capital × Leverage**  \n- **Margin:** Collateral set aside for the trade.\n\n**Example (20:1 leverage, $500 capital → $10,000 exposure):**  \n- +1% move = **+$100** (**+20%** on account)  \n- −1% move = **−$100** (**−20%** on account)\n\n**Liquidation (margin calls):** If equity hits margin requirement, broker auto‑closes positions.  \n**Overnight financing (rollover):** Interest adjustment for leveraged positions held past market close.\n"
+        },
+        {
+          "title": "Using Stop Loss & Take Profit",
+          "time": "8 minutes",
+          "content": "![Stops and targets](/assets/courses/course2/stops-tp.png)\n\n- **Stop loss:** Caps downside automatically.  \n- **Take profit:** Locks gains at target.  \n- **Reward:Risk:** Aim ≥ **2:1** for robustness.\n\n**Example:** Account $1,000; risk **1% ($10)** per trade.  \n- Pip value **$0.50**; stop **20 pips** (−$10)  \n- Take profit **40 pips** (+$20) → **2:1** R:R\n"
+        },
+        {
+          "title": "Beginner Mistakes to Avoid",
+          "time": "6 minutes",
+          "content": "![Common beginner mistakes](/assets/courses/course2/mistakes.png)\n\n**Common pitfalls**\n- **Over‑leveraging** (too large position sizes)  \n- **No stop loss** (unbounded downside)  \n- **FOMO & overtrading**  \n- **Ignoring costs** (spreads, commissions, rollover)  \n- **No plan/journal**\n\n**Example:** Risking **10%** per trade → five losses ≈ **−50%** account.  \nRisking **1%** per trade → same streak ≈ **−5%** (recoverable).\n"
+        }
+      ]
+    },
+    {
+      "id": "course_3",
+      "title": "CFD trading explained",
+      "level": "Beginner",
+      "learning_time": "45 minutes",
+      "lessons": [
+        {
+          "title": "What are contracts for difference (CFDs)",
+          "time": "10 minutes",
+          "content": "![CFDs — what & why](/assets/courses/course3/cfds.png)\n\nA **contract for difference (CFD)** is a derivative that lets you benefit from price changes **without owning** the asset. You exchange the **difference** between entry and exit prices.\n\n**Markets via CFDs**\n- **Shares:** Tesla, Microsoft, BP  \n- **Forex pairs:** EUR/USD, EUR/JPY  \n- **Commodities:** Oil, coffee, gold  \n- **Indices:** S&P 500, FTSE 100, Nikkei 225  \n- **Other:** Bonds, rates, ETFs\n\n**How CFDs work**\n- Expect rise → **go long** (buy)  \n- Expect fall → **go short** (sell)  \n- CFD value derives from the **underlying** asset’s price.\n\n**Opportunities & risks:** Profit from up/down moves; losses grow quickly if price moves against you—risk management is vital.\n"
+        },
+        {
+          "title": "Breaking down a CFD trade",
+          "time": "15 minutes",
+          "content": "![CFD trade lifecycle](/assets/courses/course3/cfd-trade.png)\n\n**Setup**\n- **Choose a market:** Share, FX, commodity, index.  \n- **Select direction:** **Long** (rise) or **Short** (fall).  \n- **Order type:** **Market** (immediate) or **Limit** (price‑conditional).\n\n**Margin & Leverage**\n- **Margin:** Deposit to open/maintain position.  \n- **Leverage:** Control larger exposure (e.g., 10:1 → $500 margin controls $5,000).  \n- **Risk note:** Leverage amplifies gains **and** losses.\n\n**P/L calculation**\n- Profit/loss = (Exit − Entry) × position size.  \n- **Gold example:** Long 1 CFD at $1,800 → exit $1,810 = **+$10**; exit $1,790 = **−$10**.\n\n**Risk management tools**\n- **Stop‑loss:** Caps loss automatically.  \n- **Take‑profit:** Locks gains.  \n- **Trailing stop:** Follows favorable moves to protect profit.\n\n**Close & review**\n- Close with opposite order; log results in a trading journal.\n"
+        },
+        {
+          "title": "Deal types and costs",
+          "time": "15 minutes",
+          "content": "![CFD deal types & costs](/assets/courses/course3/cfd-types-costs.png)\n\n**CFD Types**\n- **Open‑ended (cash CFDs):** No fixed expiry; quote ≈ spot; **overnight financing** applies.  \n- **Expiry‑based (futures/forwards):** Fixed end date; wider spreads; funding **included** in price—suited for longer trends.\n\n**Costs to consider**\n- **Margin requirements:** Fraction of notional; ties up collateral until close.  \n- **Financing charges:** Daily funding on open‑ended CFDs when held overnight.  \n- **Currency conversion:** Fees if P/L in a different currency than account base.  \n- **Equity commissions:** % fee on share CFDs’ notional (varies by broker).\n\n**Example (share CFD):**  \n- Quote **$220.50 / $221.00**, buy **500** at **$221.00**.  \n- Notional **$110,500**; commission **0.08%** → **$88.40**.  \n- Margin e.g., **10%** (**$11,050**).  \n- Exit **$225.00** → Gross P/L = (225 − 221) × 500 = **$2,000** (before costs).\n"
+        },
+        {
+          "title": "Why consider trading CFDs?",
+          "time": "15 minutes",
+          "content": "![Why trade CFDs](/assets/courses/course3/cfd-why.png)\n\n**Pros**\n- **Two‑way opportunity:** Profit long **or** short.  \n- **Broad access:** One platform for shares, indices, FX, commodities, bonds.  \n- **Extended hours:** Many markets trade almost **24h** with providers.  \n- **Efficient capital:** **Leverage** reduces upfront outlay (but increases risk).\n\n**Illustration (silver)**\n- Buy 10 oz at **$25** = **$250** outright.  \n- CFD with **10% margin** requires **$25** for similar exposure.\n\n**Bottom line:** CFDs are versatile but must be used with **strict risk control**.\n"
+        }
+      ]
+    }
+  ]
+}
