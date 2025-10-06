@@ -1,6 +1,8 @@
 <?php
+<?php
 if (!defined('ABSPATH')) exit;
 
+// Theme setup
 function sky_links_academy_setup() {
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
@@ -11,13 +13,13 @@ function sky_links_academy_setup() {
         'flex-height' => true,
         'flex-width'  => true,
     ]);
-
     register_nav_menus([
         'primary' => __('Primary Navigation', 'sky-links-academy'),
     ]);
 }
 add_action('after_setup_theme', 'sky_links_academy_setup');
 
+// Enqueue theme assets
 function sky_links_academy_assets() {
     $theme_uri = get_template_directory_uri();
 
@@ -39,8 +41,43 @@ function sky_links_academy_assets() {
 }
 add_action('wp_enqueue_scripts', 'sky_links_academy_assets');
 
+// Enqueue React app build assets
+function enqueue_react_app_assets() {
+    $js_file = get_template_directory() . '/app/dist/assets/index-pYNhRUR_.js';
+    $css_file = get_template_directory() . '/app/dist/assets/index-DqkmdTjI.css';
+
+    if (file_exists($js_file)) {
+        wp_enqueue_script(
+            'react-app-main',
+            get_template_directory_uri() . '/app/dist/assets/index-pYNhRUR_.js',
+            array(),
+            null,
+            true
+        );
+    } else {
+        error_log('React JS file missing: ' . $js_file);
+    }
+
+    if (file_exists($css_file)) {
+        wp_enqueue_style(
+            'react-app-style',
+            get_template_directory_uri() . '/app/dist/assets/index-DqkmdTjI.css',
+            array(),
+            null
+        );
+    } else {
+        error_log('React CSS file missing: ' . $css_file);
+    }
+}
+add_action('wp_enqueue_scripts', 'enqueue_react_app_assets');
+
 // Load shortcodes
-require_once get_template_directory() . '/template-parts/shortcodes.php';
+$shortcodes_file = get_template_directory() . '/template-parts/shortcodes.php';
+if (file_exists($shortcodes_file)) {
+    require_once $shortcodes_file;
+} else {
+    error_log('Shortcodes file missing: ' . $shortcodes_file);
+}
 
 // Ensure WP menu links get the class used by our JS/CSS for active highlighting
 add_filter('nav_menu_link_attributes', function ($atts, $item, $args) {
@@ -53,7 +90,7 @@ add_filter('nav_menu_link_attributes', function ($atts, $item, $args) {
 
 // Create core pages on activation and assign templates
 function sky_links_academy_create_core_pages() {
-    $ensure_page = function (string $slug, string $title, ?string $template = null) {
+    $ensure_page = function ($slug, $title, $template = null) {
         $page = get_page_by_path($slug);
         if ($page instanceof WP_Post) {
             $page_id = $page->ID;
